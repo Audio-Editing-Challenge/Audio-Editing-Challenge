@@ -50,14 +50,25 @@ Submissions are evaluated with three complementary metrics:
 
 Final rankings will be determined on an unreleased, organizer-held test set. The two tracks are evaluated and ranked independently.
 
-## Resources
-
-- 🌐 [Challenge website](https://audio-editing-challenge.github.io/)
-- 📢 [Challenge guidelines and updates](https://audio-editing-challenge.github.io/)
-- 🤗 [MMAE dataset](https://huggingface.co/datasets/BoJack/MMAE)
-- 🛠️ [MMAE code and evaluation toolkit](https://github.com/ddlBoJack/MMAE)
-- 📄 [MMAE paper](https://arxiv.org/abs/2606.07229)
-
 Registration, submission instructions, and leaderboard information will be announced on the challenge website.
+
+## Organizers
+
+- Zhikang Niu (Shanghai Jiao Tong University; Shanghai Innovation Institute)
+- Wenming Tu (Shanghai Jiao Tong University; Beijing Institute for General Artificial Intelligence)
+- Ziyang Ma (Shanghai Jiao Tong University; Shanghai Innovation Institute; Nanyang Technological University)
+- Ruiyang Xu (Shanghai Jiao Tong University)
+- Hankun Wang (Shanghai Jiao Tong University)
+- Bohan Li (Shanghai Jiao Tong University)
+- Ruiqi Yan (Shanghai Jiao Tong University)
+- Zilong Zheng (Beijing Institute for General Artificial Intelligence)
+- Chunxiang Jin (Inclusion AI, Ant Group)
+- Pengcheng Zhu (Ant Group)
+- Hung-yi Lee (National Taiwan University)
+- Jinyu Li (Microsoft Corporation)
+- Carlos Busso (Carnegie Mellon University)
+- Kai Yu (Shanghai Jiao Tong University)
+- Eng Siong Chng (Nanyang Technological University)
+- Xie Chen (Shanghai Jiao Tong University; Shanghai Innovation Institute)
 
 <p align="center"><strong>Follow this profile and watch the challenge website for updates.</strong></p>
