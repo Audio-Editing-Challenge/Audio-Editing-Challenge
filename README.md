@@ -71,4 +71,13 @@ Registration, submission instructions, and leaderboard information will be annou
 - Eng Siong Chng (Nanyang Technological University)
 - Xie Chen (Shanghai Jiao Tong University; Shanghai Innovation Institute)
 
+## Contact
+
+We have a Slack workspace and a WeChat group for real-time communication. For private questions, or if an invitation link or QR code has expired, please contact [Zhikang Niu](mailto:zhikangniu@sjtu.edu.cn) or [Wenming Tu](mailto:tuwenming@sjtu.edu.cn).
+
+| Slack Workspace | WeChat Group |
+| :---: | :---: |
+| <img src="assets/qrcodes/slack-qrcode.png" width="180" alt="Slack workspace QR code"> | <img src="assets/qrcodes/wechat-qrcode.jpg" width="180" alt="WeChat group QR code"> |
+| [Join Slack](https://join.slack.com/t/audioeditingc-lyh3904/shared_invite/zt-47n65fvg0-lUbI_Q~S2WtlkOExBtOZyA) | Scan to join |
+
 <p align="center"><strong>Follow this profile and watch the challenge website for updates.</strong></p>
