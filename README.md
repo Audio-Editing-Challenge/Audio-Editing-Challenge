@@ -54,9 +54,9 @@ Registration, submission instructions, and leaderboard information will be annou
 
 ## Organizers
 
-- Zhikang Niu (Shanghai Jiao Tong University; Shanghai Innovation Institute)
+- Zhikang Niu (Shanghai Jiao Tong University)
 - Wenming Tu (Shanghai Jiao Tong University; Beijing Institute for General Artificial Intelligence)
-- Ziyang Ma (Shanghai Jiao Tong University; Shanghai Innovation Institute; Nanyang Technological University)
+- Ziyang Ma (Shanghai Jiao Tong University; Nanyang Technological University)
 - Ruiyang Xu (Shanghai Jiao Tong University)
 - Hankun Wang (Shanghai Jiao Tong University)
 - Bohan Li (Shanghai Jiao Tong University)
@@ -69,7 +69,7 @@ Registration, submission instructions, and leaderboard information will be annou
 - Carlos Busso (Carnegie Mellon University)
 - Kai Yu (Shanghai Jiao Tong University)
 - Eng Siong Chng (Nanyang Technological University)
-- Xie Chen (Shanghai Jiao Tong University; Shanghai Innovation Institute)
+- Xie Chen (Shanghai Jiao Tong University)
 
 ## Contact
 
