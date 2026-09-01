@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="https://audio-editing-challenge.github.io/"><img src="https://img.shields.io/badge/Challenge-Website-2563EB?style=flat-square" alt="Challenge website"></a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3aLZSnqrpCq5Kg2Kw09Xvy0QpGZzraC9tzeGp-G6fob1q4g/viewform"><img src="https://img.shields.io/badge/Team%20Registration-Open-16A34A?style=flat-square" alt="Team registration form"></a>
   <a href="https://huggingface.co/datasets/BoJack/MMAE"><img src="https://img.shields.io/badge/%F0%9F%A4%97-MMAE%20Dataset-FFD21E?style=flat-square" alt="MMAE dataset on Hugging Face"></a>
   <a href="https://github.com/ddlBoJack/MMAE"><img src="https://img.shields.io/badge/MMAE-Code-181717?style=flat-square&logo=github" alt="MMAE code"></a>
   <a href="https://arxiv.org/abs/2606.07229"><img src="https://img.shields.io/badge/arXiv-2606.07229-B31B1B?style=flat-square&logo=arxiv" alt="MMAE paper on arXiv"></a>
@@ -50,7 +51,11 @@ Submissions are evaluated with three complementary metrics:
 
 Final rankings will be determined on an unreleased, organizer-held test set. The two tracks are evaluated and ranked independently.
 
-Registration, submission instructions, and leaderboard information will be announced on the challenge website.
+## Registration
+
+Team registration is now open. Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSe3aLZSnqrpCq5Kg2Kw09Xvy0QpGZzraC9tzeGp-G6fob1q4g/viewform). Register early to receive the latest challenge updates.
+
+Submission instructions and leaderboard information will be announced on the challenge website.
 
 ## Organizers
 
