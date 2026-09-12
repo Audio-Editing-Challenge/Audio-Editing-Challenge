@@ -29,6 +29,8 @@ The challenge spans **speech, music, environmental sound, and their mixtures**. 
 | **Single Model Track** | Build one end-to-end model that directly transforms input audio according to an instruction. |
 | **Agent Track** | Build an autonomous system that can plan, use locally deployed models or signal-processing tools, inspect intermediate results, and refine its output. |
 
+**Track details:** [Single Model Track](https://audio-editing-challenge.github.io/track1/) and [Agent Track](https://audio-editing-challenge.github.io/track2/).
+
 ## About MMAE
 
 **MMAE (Massive Multitask Audio Editing)** is the benchmark and evaluation foundation of the challenge. It provides diverse instruction-based editing examples across audio modalities and task complexities, curated through human-agent collaboration with manual annotation, verification, and quality inspection.
@@ -51,11 +53,36 @@ Submissions are evaluated with three complementary metrics:
 
 For final evaluation, the Single Model Track and the Agent Track will each use **500 previously unreleased test examples** held by the organizers. The two tracks will be ranked independently.
 
+## Baselines
+
+The challenge provides **open-source baselines for both the Single Model Track and the Agent Track** as reproducible starting points and experimental references, helping participants run the complete workflow.
+
+- **Single Model Track: AuK-based end-to-end audio editing.** This baseline uses the AuK base model [1] to generate edited audio directly from the input audio and a natural-language instruction. To preserve the single-model setting, **Prompt Enhancer is disabled**, and the output audio duration matches the input duration. It provides a reference for exploring instruction understanding and audio editing within a single model.
+- **Agent Track: LLM-orchestrated audio tools.** This baseline uses **DeepSeek-V4-Flash** as the default router to select tools according to the editing instruction. Digital signal processing (DSP) tools handle speed, volume, and pitch adjustments; **SAM-Audio-Large** [2] handles source separation; and **AuK with Prompt Enhancer enabled** [1] handles generative audio editing.
+
+**Code:** [Audio Editing Challenge Baselines](https://github.com/Audio-Editing-Challenge/Audio-Editing-Challenge-Baseline)
+
 ## Registration
 
 Team registration is now open. Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSe3aLZSnqrpCq5Kg2Kw09Xvy0QpGZzraC9tzeGp-G6fob1q4g/viewform). Register early to receive the latest challenge updates.
 
 Submission instructions and leaderboard information will be announced on the challenge website.
+
+## Sponsorship
+
+<p>
+  <a href="https://www.tencent.com/">
+    <img src="assets/sponsors/tencent.png" width="240" alt="Tencent">
+  </a>
+</p>
+
+**The challenge prize pool is sponsored by Tencent, with a total of USD 7,000. The top three teams in the Single Model Track and the Agent Track will be awarded separately, with the following prizes in each track:**
+
+- **First Prize (1st place): USD 2,000**
+- **Second Prize (2nd place): USD 1,000**
+- **Third Prize (3rd place): USD 500**
+
+The organizers thank Tencent for supporting this challenge and research in audio editing.
 
 ## Organizers
 
@@ -84,5 +111,12 @@ We have a Slack workspace and a WeChat group for real-time communication. For pr
 | :---: | :---: |
 | <img src="assets/qrcodes/slack-qrcode.png" width="180" alt="Slack workspace QR code"> | <img src="assets/qrcodes/wechat-qrcode.jpg" width="180" alt="WeChat group QR code"> |
 | [Join Slack](https://join.slack.com/t/audioeditingc-lyh3904/shared_invite/zt-47n65fvg0-lUbI_Q~S2WtlkOExBtOZyA) | Scan to join |
+
+## References
+
+<ol>
+  <li id="ref-auk">Ma, Ziyang, et al. "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing." arXiv:2609.08936 (2026).</li>
+  <li id="ref-sam-audio">Shi, Bowen, et al. "SAM Audio: Segment Anything in Audio." arXiv:2512.18099 (2025).</li>
+</ol>
 
 <p align="center"><strong>Follow this profile and watch the challenge website for updates.</strong></p>
