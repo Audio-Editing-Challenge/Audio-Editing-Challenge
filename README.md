@@ -49,7 +49,7 @@ Submissions are evaluated with three complementary metrics:
 - **Consistency Rate (CR):** how well unrelated content and audio quality are preserved.
 - **Exact Match Rate (EMR):** how often every instruction-following and consistency requirement is satisfied for an example.
 
-Final rankings will be determined on an unreleased, organizer-held test set. The two tracks are evaluated and ranked independently.
+For final evaluation, the Single Model Track and the Agent Track will each use **500 previously unreleased test examples** held by the organizers. The two tracks will be ranked independently.
 
 ## Registration
 
