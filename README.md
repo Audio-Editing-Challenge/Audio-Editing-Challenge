@@ -31,6 +31,8 @@ The challenge spans **speech, music, environmental sound, and their mixtures**. 
 
 **Track details:** [Single Model Track](https://audio-editing-challenge.github.io/track1/) and [Agent Track](https://audio-editing-challenge.github.io/track2/).
 
+**Agent Track model release cutoff extended:** The specific versions and weights of all model components must have been publicly released **before November 1, 2026**, extending the previous cutoff of October 1, 2026.
+
 ## About MMAE
 
 **MMAE (Massive Multitask Audio Editing)** is the benchmark and evaluation foundation of the challenge. It provides diverse instruction-based editing examples across audio modalities and task complexities, curated through human-agent collaboration with manual annotation, verification, and quality inspection.
@@ -51,7 +53,9 @@ Submissions are evaluated with three complementary metrics:
 - **Consistency Rate (CR):** how well unrelated content and audio quality are preserved.
 - **Exact Match Rate (EMR):** how often every instruction-following and consistency requirement is satisfied for an example.
 
-For final evaluation, the Single Model Track and the Agent Track will each use **500 previously unreleased test examples** held by the organizers. The two tracks will be ranked independently.
+**Before November 10, 2026**, participants may use the publicly available [MMAE test set](https://huggingface.co/datasets/BoJack/MMAE) to develop and evaluate their models and agent systems.
+
+**On November 10, 2026**, the organizers will release the **previously unreleased challenge test set** and the **submission software development kit (SDK)** for uploading results. The leaderboard will open for submissions on the same date. The Single Model Track and the Agent Track will each use **500 previously unreleased test examples**, and the two tracks will be ranked independently.
 
 ## Baselines
 
@@ -64,9 +68,11 @@ The challenge provides **open-source baselines for both the Single Model Track a
 
 ## Registration
 
-Team registration is now open. Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSe3aLZSnqrpCq5Kg2Kw09Xvy0QpGZzraC9tzeGp-G6fob1q4g/viewform). Register early to receive the latest challenge updates.
+The registration deadline has been extended from October 1 to **October 8, 2026**. Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSe3aLZSnqrpCq5Kg2Kw09Xvy0QpGZzraC9tzeGp-G6fob1q4g/viewform). Register early to receive the latest challenge updates.
 
-Submission instructions and leaderboard information will be announced on the challenge website.
+Before submissions open on **November 10, 2026**, the organizers will send a form to collect and confirm each team's final member list, **including supervisors and team leaders**. Except in special circumstances, **changes to team membership will not be permitted once submissions open**. **Each person may participate in both tracks, but may be listed on only one team per track.**
+
+Submission instructions and leaderboard information will be announced on the [challenge website](https://audio-editing-challenge.github.io/leaderboard/).
 
 ## Sponsorship
 
